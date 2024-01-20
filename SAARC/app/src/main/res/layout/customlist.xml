@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:weightSum="6"
+        android:orientation="horizontal"
+        android:layout_height="100dp">
+        <ImageView
+            android:id="@+id/imageidlogo"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:src="@drawable/nep"></ImageView>
+        <LinearLayout
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/countryname"
+                android:layout_weight="2"
+                android:text="Bangladesh"
+                android:textSize="32sp"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:textStyle="bold|italic"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_height="wrap_content"
+
+                ></TextView>
+            <TextView
+                android:layout_weight="2"
+                android:text="Click here to see the details"
+
+                android:layout_width="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:layout_height="wrap_content"
+
+                ></TextView>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

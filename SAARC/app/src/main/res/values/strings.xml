@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SAARC</string>
+    <string-array name="Country">
+        <item>Afghanistan</item>
+        <item>Bangladesh</item>
+        <item>Bhutan</item>
+        <item>India</item>
+        <item>Maldives</item>
+        <item>Nepal</item>
+        <item>Pakistan</item>
+        <item>SriLanka</item>
+    </string-array>
+
+</resources>

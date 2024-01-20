@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#344DDC2D"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".MainActivity">
+
+    <SearchView
+        android:id="@+id/searchviewid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:queryHint="Search country" />
+
+
+    <ListView
+        android:id="@+id/listviewid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:padding="10dp"
+        android:divider="@color/black"
+        android:dividerHeight="2dp"
+        android:listSelector="#F252DAB4" />
+
+</LinearLayout>
